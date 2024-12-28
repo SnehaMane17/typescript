@@ -58,9 +58,12 @@ let aplha: symbol = Symbol('test')
 
 let users = {
     [id]: 1,    // not accesible as key, it is unique value outside directl like users.id
-    name: 'sneha',
+    name: 'sneha', 
     getId(){
         return this[id]
     }
 }
 console.log(users.getId())
+
+
+export{}

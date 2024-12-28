@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function addNumbers(a, b) {
     const result = a + b;
     console.log(result);
