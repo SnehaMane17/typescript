@@ -17,7 +17,7 @@ console.log(multiply(3))
 console.log(multiply("test"))
 let value: unknown
 value = "test"
-console.log(value.toUppercase()) // direct operation is not allowed
+// console.log(value.toUppercase()) // direct operation is not allowed
 if( typeof value === "string"){
     console.log(value.toUpperCase())  // now allowed because we did type checking
 }
